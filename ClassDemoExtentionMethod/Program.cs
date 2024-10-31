@@ -20,6 +20,7 @@ Console.WriteLine(end);
 Point nyPunkt = start + end;
 Console.WriteLine(nyPunkt);
 
-
+Console.WriteLine(start != end); // implicit brug af Equals
+Console.WriteLine(start == end); // implicit brug af Equals
 
 
